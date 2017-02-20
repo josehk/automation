@@ -97,23 +97,3 @@ class GouletModel
 
 end
 
-
-# browser = :chrome #or :firefox
-# driver = Watir::Browser.new browser
-#
-# page = GouletModel.new driver
-# page.browse
-#
-# page.search_item "Lamy Safari Fountain Pen - GREEN, MEDIUM"
-# sleep 3
-# p1 = page.product "LMY-L13GNM"
-#
-# if p1.nil?
-#   p "product doesn't exist"
-# end
-#
-# page.product_quick_shop p1
-# sleep 3
-# p page.cart_monitor_items
-
-
