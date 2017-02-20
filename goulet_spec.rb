@@ -35,7 +35,7 @@ describe 'Add to Cart' do
 
     @goulet.product_quick_shop p1
     sleep 3
-
+    @driver.refresh
     #After adding the product the cart monitor should change
     expect(@goulet.cart_monitor_items).to eq "1"
   end
@@ -47,6 +47,7 @@ describe 'Add to Cart' do
     expect(p2).not_to be_nil
     @goulet.product_quick_shop p2
     sleep 3
+    @driver.refresh
     expect(@goulet.cart_monitor_items).to eq "2"
   end
 
