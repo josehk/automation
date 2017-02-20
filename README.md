@@ -2,15 +2,16 @@
 
 ## Requirements
 
-- Ruby 2.0 +
-- DevKit if using Windows
+- Ruby 2.2 +
 - Bundler Gem
 
 ```
     gem install bundler
 ```
 
-## Chrome
+Run bundler to install the required gems
+
+## Chrome Driver needed
 In order to use Google Chrome you need to install its driver:
 https://sites.google.com/a/chromium.org/chromedriver/
 
